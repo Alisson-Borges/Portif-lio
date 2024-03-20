@@ -23,15 +23,15 @@
             </div> <!--logo-->
             <nav class="menu-desktop">
                 <ul>
-                    <li> <a href="#">Inicio</a></li>
-                    <li> <a href="#">Especialidades</a></li>
-                    <li> <a href="#">Sobre</a></li>
-                    <li> <a href="#">Projetos</a></li>                   
+                    <li> <a href="#topo">Inicio</a></li>
+                    <li> <a href="#especialidades">Especialidades</a></li>
+                    <li> <a href="#img">Sobre</a></li>
+                    <li> <a href="#portfolio">Projetos</a></li>                   
                 </ul>
             </nav>
 
             <div class="btn-contato">
-                <a href="#">
+                <a href="#email">
                     <button>Contato</button>
                 </a>
             </div>
@@ -44,10 +44,10 @@
                 <div class="flex">
                     <div class="txt-topo-site">
                         <h1>Front-End Developer<span>.</span> </h1>
-                        <p> Pode ser definido como tudo aquilo que é dito por um emissor e interpretado por um receptor. Dessa forma, tudo que é interpretável é um texto. Outra forma de conceituação é pensar que tudo aquilo que produz um sentido completo, que seja uma mensagem compreensível, é um texto </p>
-
+                        <p>Apaixonado por tecnologia, focado em progredir e melhorar continuamente na área. Possuo 1 ano de experiência de t.i pelo Exército Brasileiro, neste tempo concretizei minha paixão e empenho,soube que era essa área que gostaria de ter uma carreira pelo resto de minha vida.</p>
+                            
                         <div class="btn-contato">
-                            <a href="#">
+                            <a href="#email">
                                 <button>Entre em contato</button>
                             </a>
 
@@ -55,7 +55,7 @@
                         
                     </div><!--topo-do-site-->
 
-                    <div class="img-topo-site">
+                    <div class="img-topo-site" id="topo">
                         <img src="Image/Captura de tela 2024-03-14 014150.png">
 
                     </div><!--topo-do-site-->
@@ -65,7 +65,7 @@
 
         <section class="especialidades"> <!--Icones-especialidades-->
             <div class="interface">
-                <h2 class="titulo">Minhas <span>Especialidades.</span></h2>
+                <h2 class="titulo" id="especialidades">Minhas <span>Especialidades.</span></h2>
                 <div class="flex">
                     <div class="especialidades-box">
                         <i class="bi bi-code-square"></i>
@@ -79,12 +79,68 @@
                     </div>
                     <div class="especialidades-box">
                         <i class="bi bi-bar-chart-line-fill"></i>
-                        <h3>Power Bi</h3> 
+                        <h3>Power BI</h3> 
                         <p></p>                       
                     </div>
                 </div>
             </div> <!--Fim-icon-->
         </section>
-    </main>    
+        <section class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre" id="img">
+                        <img src="Image/FOTOPERFIL.jpeg">
+                    </div><!--img-sobre-->
+
+                    <div class="txt-sobre">
+                        <h2>Olá, <span>Sou Alisson Borges</span></h2>
+                        <p>Atuamente estudo Análise e Desenvolvimento de sistemas pela CEUNSP, procuro progredir como desenvolvedor front-end e tenho como meta me tornar um desenvolvedor full-stack.</p>
+                        <p>Formado em Eletrônica pela instituição Senai(Indaiatuba-SP),Também formado em Power BI pelo Senai(Itu-SP).</p>
+                        <div class="btn-social">
+                            <a href="https://github.com/Alisson-Borges" target="_blank"><button class="btn"><i class="bi bi-github"></i></button></a>
+                            <a href="https://www.instagram.com/al_borgesx/" target="_blank"><button class="btn"><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://www.linkedin.com/in/alisson-borges-3314402b7/" target="_blank"><button class="btn"><i class="bi bi-linkedin"></i></button></a>
+                        </div><!--btn-->
+                    </div><!--txt-sobre-->                  
+                </div><!--flex-->
+            </div> <!--interface-->
+        </section>
+        <section class="portfolio" id="portfolio">
+            <div class="interface">
+                    <h2 class="titulo">Projetos <span>Pessoais</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image:url(Image/em-breve.png) ;">
+                    <div class="overlay">1º Projeto</div>
+
+                    </div>
+                    <div class="img-port" style="background-image:url(Image/em-breve.png) ;">
+                        <div class="overlay">2º Projeto</div>
+                    </div>
+                    <div class="img-port" style="background-image:url(Image/em-breve.png) ;">
+                        <div class="overlay">3º Projeto</div>
+                    </div>
+                    </div>
+                </div><!--flex-->
+            </div><!--inter-->
+        </section><!--port-->
+    </main>
+      
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex"> </div>
+                <div class="logo-footer">                   
+                    <a href="https://github.com/Alisson-Borges" target="_blank"><button class="btn"><i class="bi bi-github"></i></button></a>
+                    <a href="https://www.instagram.com/al_borgesx/" target="_blank"><button class="btn"><i class="bi bi-instagram"></i></button></a>
+                    <a href="https://www.linkedin.com/in/alisson-borges-3314402b7/" target="_blank"><button class="btn"><i class="bi bi-linkedin"></i></button></a>
+                </div>
+                </div>
+                <div class="line-footer borda">
+                    <p><i class="bi bi-envelope-plus-fill"></i><a href="mailto:Alisson.borges737@protonmail.com" id="email">alisson.borges737@protonmail.com</a></p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
